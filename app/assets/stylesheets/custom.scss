@@ -6,6 +6,11 @@ body {
 
 /* header */
 
+.navbar {
+  background: whitesmoke;
+  height: 70px;
+}
+
 #logo {
   color: #2E64FE;
   float: left;
@@ -13,7 +18,22 @@ body {
   margin-top: 8px;
 }
 
-.navbar {
-  background: whitesmoke;
-  height: 70px;
+/* header以降 */
+
+.whole-container {
+  display: flex;
+}
+
+/* sidebar */
+
+.sidebar {
+  background: #2E64FE;
+  height: 500px;
+  width: 350px;
+}
+
+/* main */
+
+.main {
+  width: 100%;
 }
